@@ -1,0 +1,58 @@
+.homepage {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.homepage-left {
+    background-color: #F0EBE3;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-right {
+    background-color: #F0EBE3;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-large-text {
+    font-size: 42px;
+    padding: 10px;
+    line-height: 1.1;
+    width: 70%;
+    font-family: OCR A Std, monospace;
+}
+
+#left-small-text {
+    font-size: 15px;
+    padding: 10px;
+    line-height: 1.1;
+    width: 70%;
+    font-family: OCR A Std, monospace;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.start-learning {
+    width: 25%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#play-icon {
+    margin-bottom: 2px;
+}
+
+.right-image {
+    width: 90%;
+    margin-right: 10%;
+}
